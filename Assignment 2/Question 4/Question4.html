@@ -1,0 +1,54 @@
+<!--
+Assignment 2
+Written by: Rami El-Kazma
+For SOEN 287 Section S – Winter 2018
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question 4</title>
+
+<script type = "text/javaScript">
+
+	function stringStats(sentence)
+		{
+			var x = sentence.split(" ");		//split phrase into different words
+			for(var i = 0; i < x.length; i++)	
+			{
+				//check every word (in array) for vowels
+				var vowelArray = x[i].match(/[a,i,e,o,u]/gi);
+				
+				//if no vowels in the word the vowelArray will be equal to null
+				//else the vowelArray will contain as many elements as vowels in the word
+				if (vowelArray == null)
+					document.write(x[i] + " contains 0 vowels.<br>");
+				else
+				{
+					var vowels = vowelArray.length;
+					document.write(x[i] + " contains " + vowels + " vowel(s).<br>");
+				}
+			}
+		}
+</script>
+
+</head>
+<body>
+
+
+	<input type="text" id="sent" placeholder="Enter the phrase you wish to check for vowels.">
+	<input type="button" value="Submit" onclick="tester()"/>
+	
+	<!-- preference of using html buttons so a function is needed to take the user input
+		 and pass the sentence as a parameter to stringStats function -->
+	<script>
+		function tester()
+		{
+			var sentence = document.getElementById('sent').value;
+			stringStats(sentence);
+		}
+	</script>
+
+
+</body>
+</html>

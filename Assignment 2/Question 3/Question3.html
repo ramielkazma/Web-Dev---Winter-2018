@@ -1,0 +1,40 @@
+<!--
+Assignment 2
+Written by: Rami El-Kazma
+For SOEN 287 Section S – Winter 2018
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Question 3</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type = "text/javascript"  src = "histo.js" ></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<form action="">
+	<table id = formtable>
+		<tr id = top>
+			<td><label id = "tlabel">Input String:</label></td>
+			<td><input type ="text" id="str"/></td>
+		</tr>
+		<tr id = middle>
+			<td><label id = "mlabel">Input Word:</label></td>
+			<td><input type ="text" id="wd"/></td>
+		</tr>
+		<tr id = bottom>
+			<td colspan = 2><input type="button" value="Plot Histogram" 
+			onclick="parseInput()" /></td>
+		</tr>
+	</table>
+</form>
+
+<!-- draw graph -->
+<div id="graph"></div>
+
+</body>
+</html>

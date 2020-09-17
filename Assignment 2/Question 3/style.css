@@ -1,0 +1,13 @@
+/*
+Assignment 2
+Written by: Rami El-Kazma
+For SOEN 287 Section S – Winter 2018
+*/
+
+#formtable{background-color:orange; border: 1px solid black; border-collapse: collapse;}
+
+#top,#bottom{background-color: orange;}
+
+#middle{background-color: white;}
+
+#formtable td {border: 1px solid black;padding: 4px;}

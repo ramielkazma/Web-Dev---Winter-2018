@@ -1,0 +1,19 @@
+<style>
+h3.header{color:red; background-color:khaki; padding: 20px; border-color: black; border-width: 10px; border-style:solid; margin: 10px;}
+
+table.table{border-width: 15px; border-style: dotted; border-color: yellow;}
+
+th.th1{background-color: red; padding: 10px;}
+th.th2{background-color: red;padding: 10px;}
+
+td.td1{background-color: orange; border-color: brown; border-style: solid; border-width: 5px;}
+td.td2{background-color: green; border-color: yellowgreen; border-style: solid; border-width: 5px;}
+td.td3{background-color: lightblue; border-color: blue; border-style: solid; border-width: 5px;}
+td.td4{background-color: lightcyan; border-color: pink; border-style: solid; border-width: 5px;}
+
+/*ul.ul1{list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB9QpjubA-R_e6pLjbnRMZA8IDw5aLzupHUEhH0fuht2n97ezi');}
+
+ul.ul4{list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB9QpjubA-R_e6pLjbnRMZA8IDw5aLzupHUEhH0fuht2n97ezi');}*/
+
+ol.ol4{list-style-type:armenian;}
+</style>

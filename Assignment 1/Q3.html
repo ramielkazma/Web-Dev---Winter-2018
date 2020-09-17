@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Rami El-Kazma's Apartment Search Form</h1>
+
+<form action = "">
+	<fieldset>
+    <legend>Renter(s) Information</legend>
+    
+    <label>How many people will live in this apartment?</label>
+    <input type="number" name="quantity" min = "1"><p>
+    
+    <label>Smoker?</label> 
+    <input type="radio" name="smoker" value="no">No
+    <input type="radio" name="smoker" value="yes">Yes<p>
+    
+    <label>Any pets?</label><br>
+    <input type="checkbox" name="pet1" value="Cat">Cat(s)<br>
+    <input type="checkbox" name="pet2" value="Dog">Dog(s)<br>
+    <input type="checkbox" name="pet3" value="Other">Other Specify: <input type="text" name="pet"><br>
+    <input type="checkbox" name="pet4" value="None">No Pets
+    </fieldset>
+    <p>
+    <fieldset>
+    <legend>What are you looking for?</legend>
+    <ul>
+    <li><label>Size of apartment:<br>
+    <input type="checkbox" name="size1" value="Studio">Studio
+    <input type="checkbox" name="size2" value="31/2">3&frac12;
+    <input type="checkbox" name="size3" value="41/2">4&frac12;
+    <input type="checkbox" name="size4" value="51/2">5&frac12;
+    <input type="checkbox" name="size5" value="More">More than 5&frac12;
+    </label></li>
+    <p>
+    <li><label>Do you have preferred locations?<br>
+    <input type="checkbox" name="loc1" value="Wi">West Island
+    <input type="checkbox" name="loc2" value="Dt">Downtown
+    <input type="checkbox" name="loc3" value="Lw">Lower Westmount
+    <input type="checkbox" name="loc4" value="Ndg">NDG
+    <input type="checkbox" name="loc5" value="Ei">East end of island
+    <input type="checkbox" name="loc6" value="Dc">Don't care
+    </label></li>
+    <p>
+    <li><label>Price Range/month:<br>
+    <select name = "price">
+    	<option value = "cheap">&lt$500</option>
+        <option value = "mid">$500-$750</option>
+        <option value = "exp">$750-$1000</option>
+        <option value = "nolimit">No price limit</option>
+        </select>
+    </label></li>
+    <p>
+    <li><label>Would be nice to have<br>
+    <input type="checkbox" name="nice1" value="fireplace">Fire place
+    <input type="checkbox" name="nice2" value="laundromat">Laundromat in building
+    <input type="checkbox" name="nice3" value="inparking">Indoor Parking
+    <input type="checkbox" name="nice4" value="outparking">Output Parking
+    <input type="checkbox" name="nice5" value="balcony">Balcony
+    </label></li>
+    </ul>
+    </fieldset>
+    <p>
+    Let's see what we can find ...<p>
+    <input type = "submit" value = "Seach" />
+<input type = "reset" value = "Start over" />
+
+</form>
+
+</body>
+</html>
